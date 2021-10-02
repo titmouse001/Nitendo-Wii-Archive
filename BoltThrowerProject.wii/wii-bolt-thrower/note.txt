@@ -1,0 +1,13 @@
+LatestVersion_FAKE.xml = NOT FOR RELEASE (note: replaces LatestVersion_TESTING.xml used in error)
+
+LatestVersion_TESTING.xml = 0.61  
+
+LatestVersion.xml = 0.60, 0.62 & above   (NOT 0.61! see top note)
+
+
+devkitPro/libogc: C Library for Wii and Gamecube homebrew
+
+( dont forget to copy needed compiler libs, for example) 
+c:\libogc\lib\wii\libpng.a
+c:\libogc\lib\wii\libjpeg.a
+...

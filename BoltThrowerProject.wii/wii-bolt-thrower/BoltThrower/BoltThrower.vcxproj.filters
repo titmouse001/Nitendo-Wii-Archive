@@ -1,0 +1,400 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Source\Debug Utilities">
+      <UniqueIdentifier>{1adbfb72-23c9-4f74-8f81-b1078a867ad8}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source\Managers">
+      <UniqueIdentifier>{b82166ff-c322-4984-9896-bddb9463a6f9}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source\Utilities">
+      <UniqueIdentifier>{37924f1a-9474-4eaf-9374-55d0f01c6b78}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source\Utilities\File Utilities">
+      <UniqueIdentifier>{24370a4a-352e-46ff-bb82-28d8be4066ac}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source\Utilities\Font Utilities">
+      <UniqueIdentifier>{67f4efc3-17ef-4224-ac5b-97c0d097a00a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source\Utilities\Image Utilities">
+      <UniqueIdentifier>{504372b2-be47-4d65-a6f1-599fb0da6baf}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source\Utilities\Hardware">
+      <UniqueIdentifier>{c662c7de-c454-4023-8e87-aafde6b76b6a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source\Utilities\Lwo">
+      <UniqueIdentifier>{01cf9c7c-e22d-43d9-bbf3-0a3349112050}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source\Utilities\HashLabel">
+      <UniqueIdentifier>{d02e1db8-0218-4b45-8e95-2538539df444}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source\Utilities\HashStrings">
+      <UniqueIdentifier>{09a7cd90-a657-41bb-9e04-00acf568b392}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source\Utilities\Random">
+      <UniqueIdentifier>{9ddeda1c-b395-469f-8f03-cd0f80edb340}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source\Utilities\3D Utilites">
+      <UniqueIdentifier>{dbaa0882-a7db-457b-8612-ffb4a9eccb89}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source\CullFrustum">
+      <UniqueIdentifier>{f683330f-12a1-4e2c-bcfa-6e83db5cf66b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source\TinyXML">
+      <UniqueIdentifier>{97e6005f-1f06-4127-b922-3b7b63e45683}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source\libpng">
+      <UniqueIdentifier>{f6c1a2a7-d6b1-4493-a34c-92dffde91ec7}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source\libpng\pngu">
+      <UniqueIdentifier>{e95e57b6-e36b-4bbd-997f-0513c5a858cb}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source\OggPlayer">
+      <UniqueIdentifier>{1c573b44-4158-4b85-a10a-69741a962650}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Build rules">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav</Extensions>
+    </Filter>
+    <Filter Include="Data">
+      <UniqueIdentifier>{54ec0e45-cf85-4c5e-8c53-9f098e72bd5d}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="source\Camera.cpp">
+      <Filter>Source</Filter>
+    </ClCompile>
+    <ClCompile Include="source\GameDisplay.cpp">
+      <Filter>Source</Filter>
+    </ClCompile>
+    <ClCompile Include="source\GameLogic.cpp">
+      <Filter>Source</Filter>
+    </ClCompile>
+    <ClCompile Include="source\Image.cpp">
+      <Filter>Source</Filter>
+    </ClCompile>
+    <ClCompile Include="source\IntroDisplay.cpp">
+      <Filter>Source</Filter>
+    </ClCompile>
+    <ClCompile Include="source\Main.cpp">
+      <Filter>Source</Filter>
+    </ClCompile>
+    <ClCompile Include="source\Menu.cpp">
+      <Filter>Source</Filter>
+    </ClCompile>
+    <ClCompile Include="source\MenuScreens.cpp">
+      <Filter>Source</Filter>
+    </ClCompile>
+    <ClCompile Include="source\MessageBox.cpp">
+      <Filter>Source</Filter>
+    </ClCompile>
+    <ClCompile Include="source\Mission.cpp">
+      <Filter>Source</Filter>
+    </ClCompile>
+    <ClCompile Include="source\Panels3D.cpp">
+      <Filter>Source</Filter>
+    </ClCompile>
+    <ClCompile Include="source\Render3D.cpp">
+      <Filter>Source</Filter>
+    </ClCompile>
+    <ClCompile Include="source\Timer.cpp">
+      <Filter>Source</Filter>
+    </ClCompile>
+    <ClCompile Include="source\Vessel.cpp">
+      <Filter>Source</Filter>
+    </ClCompile>
+    <ClCompile Include="source\WiiManager.cpp">
+      <Filter>Source</Filter>
+    </ClCompile>
+    <ClCompile Include="source\Debug.cpp">
+      <Filter>Source\Debug Utilities</Filter>
+    </ClCompile>
+    <ClCompile Include="source\ExplosionManager.cpp">
+      <Filter>Source\Managers</Filter>
+    </ClCompile>
+    <ClCompile Include="source\FontManager.cpp">
+      <Filter>Source\Managers</Filter>
+    </ClCompile>
+    <ClCompile Include="source\ImageManager.cpp">
+      <Filter>Source\Managers</Filter>
+    </ClCompile>
+    <ClCompile Include="source\InputDeviceManager.cpp">
+      <Filter>Source\Managers</Filter>
+    </ClCompile>
+    <ClCompile Include="source\MenuManager.cpp">
+      <Filter>Source\Managers</Filter>
+    </ClCompile>
+    <ClCompile Include="source\SoundManager.cpp">
+      <Filter>Source\Managers</Filter>
+    </ClCompile>
+    <ClCompile Include="source\UpdateManager.cpp">
+      <Filter>Source\Managers</Filter>
+    </ClCompile>
+    <ClCompile Include="source\URIManager.cpp">
+      <Filter>Source\Managers</Filter>
+    </ClCompile>
+    <ClCompile Include="source\Draw_Util.cpp">
+      <Filter>Source\Utilities</Filter>
+    </ClCompile>
+    <ClCompile Include="source\Thread.cpp">
+      <Filter>Source\Utilities</Filter>
+    </ClCompile>
+    <ClCompile Include="source\Uti_google_analyticsl.cpp">
+      <Filter>Source\Utilities</Filter>
+    </ClCompile>
+    <ClCompile Include="source\Util.cpp">
+      <Filter>Source\Utilities</Filter>
+    </ClCompile>
+    <ClCompile Include="source\wiiFile.cpp">
+      <Filter>Source\Utilities\File Utilities</Filter>
+    </ClCompile>
+    <ClCompile Include="source\CharInfo.cpp">
+      <Filter>Source\Utilities\Font Utilities</Filter>
+    </ClCompile>
+    <ClCompile Include="source\Font.cpp">
+      <Filter>Source\Utilities\Font Utilities</Filter>
+    </ClCompile>
+    <ClCompile Include="source\JPEGDEC.cpp">
+      <Filter>Source\Utilities\Image Utilities</Filter>
+    </ClCompile>
+    <ClCompile Include="source\TGA.cpp">
+      <Filter>Source\Utilities\Image Utilities</Filter>
+    </ClCompile>
+    <ClCompile Include="source\EFB.cpp">
+      <Filter>Source\Utilities\Hardware</Filter>
+    </ClCompile>
+    <ClCompile Include="source\LWOSource\clip.cpp">
+      <Filter>Source\Utilities\Lwo</Filter>
+    </ClCompile>
+    <ClCompile Include="source\LWOSource\envelope.cpp">
+      <Filter>Source\Utilities\Lwo</Filter>
+    </ClCompile>
+    <ClCompile Include="source\LWOSource\list.cpp">
+      <Filter>Source\Utilities\Lwo</Filter>
+    </ClCompile>
+    <ClCompile Include="source\LWOSource\lwio.cpp">
+      <Filter>Source\Utilities\Lwo</Filter>
+    </ClCompile>
+    <ClCompile Include="source\LWOSource\lwo2.cpp">
+      <Filter>Source\Utilities\Lwo</Filter>
+    </ClCompile>
+    <ClCompile Include="source\LWOSource\lwob.cpp">
+      <Filter>Source\Utilities\Lwo</Filter>
+    </ClCompile>
+    <ClCompile Include="source\LWOSource\main2.cpp">
+      <Filter>Source\Utilities\Lwo</Filter>
+    </ClCompile>
+    <ClCompile Include="source\LWOSource\pntspols.cpp">
+      <Filter>Source\Utilities\Lwo</Filter>
+    </ClCompile>
+    <ClCompile Include="source\LWOSource\surface.cpp">
+      <Filter>Source\Utilities\Lwo</Filter>
+    </ClCompile>
+    <ClCompile Include="source\LWOSource\vecmath.cpp">
+      <Filter>Source\Utilities\Lwo</Filter>
+    </ClCompile>
+    <ClCompile Include="source\LWOSource\vmap.cpp">
+      <Filter>Source\Utilities\Lwo</Filter>
+    </ClCompile>
+    <ClCompile Include="source\HashLabel.cpp">
+      <Filter>Source\Utilities\HashLabel</Filter>
+    </ClCompile>
+    <ClCompile Include="source\HashString.cpp">
+      <Filter>Source\Utilities\HashStrings</Filter>
+    </ClCompile>
+    <ClCompile Include="source\Util3D.cpp">
+      <Filter>Source\Utilities\3D Utilites</Filter>
+    </ClCompile>
+    <ClCompile Include="source\CullFrustum\AABox.cpp">
+      <Filter>Source\CullFrustum</Filter>
+    </ClCompile>
+    <ClCompile Include="source\CullFrustum\FrustumR.cpp">
+      <Filter>Source\CullFrustum</Filter>
+    </ClCompile>
+    <ClCompile Include="source\CullFrustum\Plane.cpp">
+      <Filter>Source\CullFrustum</Filter>
+    </ClCompile>
+    <ClCompile Include="source\CullFrustum\Vec3.cpp">
+      <Filter>Source\CullFrustum</Filter>
+    </ClCompile>
+    <ClCompile Include="source\TinyXML\tinystr.cpp">
+      <Filter>Source\TinyXML</Filter>
+    </ClCompile>
+    <ClCompile Include="source\TinyXML\tinyxml.cpp">
+      <Filter>Source\TinyXML</Filter>
+    </ClCompile>
+    <ClCompile Include="source\TinyXML\tinyxmlerror.cpp">
+      <Filter>Source\TinyXML</Filter>
+    </ClCompile>
+    <ClCompile Include="source\TinyXML\tinyxmlparser.cpp">
+      <Filter>Source\TinyXML</Filter>
+    </ClCompile>
+    <ClCompile Include="source\libpng\pngu\pngu.c">
+      <Filter>Source\libpng\pngu</Filter>
+    </ClCompile>
+    <ClCompile Include="source\oggplayer\oggplayer.cpp">
+      <Filter>Source\OggPlayer</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="source\Camera.h">
+      <Filter>Source</Filter>
+    </ClInclude>
+    <ClInclude Include="source\Config.h">
+      <Filter>Source</Filter>
+    </ClInclude>
+    <ClInclude Include="source\GameDisplay.h">
+      <Filter>Source</Filter>
+    </ClInclude>
+    <ClInclude Include="source\GameLogic.h">
+      <Filter>Source</Filter>
+    </ClInclude>
+    <ClInclude Include="source\Image.h">
+      <Filter>Source</Filter>
+    </ClInclude>
+    <ClInclude Include="source\IntroDisplay.h">
+      <Filter>Source</Filter>
+    </ClInclude>
+    <ClInclude Include="source\Menu.h">
+      <Filter>Source</Filter>
+    </ClInclude>
+    <ClInclude Include="source\MenuScreens.h">
+      <Filter>Source</Filter>
+    </ClInclude>
+    <ClInclude Include="source\MessageBox.h">
+      <Filter>Source</Filter>
+    </ClInclude>
+    <ClInclude Include="source\Mission.h">
+      <Filter>Source</Filter>
+    </ClInclude>
+    <ClInclude Include="source\Panels3D.h">
+      <Filter>Source</Filter>
+    </ClInclude>
+    <ClInclude Include="source\Render3D.h">
+      <Filter>Source</Filter>
+    </ClInclude>
+    <ClInclude Include="source\Timer.h">
+      <Filter>Source</Filter>
+    </ClInclude>
+    <ClInclude Include="source\Vessel.h">
+      <Filter>Source</Filter>
+    </ClInclude>
+    <ClInclude Include="source\WiiManager.h">
+      <Filter>Source</Filter>
+    </ClInclude>
+    <ClInclude Include="source\Debug.h">
+      <Filter>Source\Debug Utilities</Filter>
+    </ClInclude>
+    <ClInclude Include="source\ExplosionManager.h">
+      <Filter>Source\Managers</Filter>
+    </ClInclude>
+    <ClInclude Include="source\FontManager.h">
+      <Filter>Source\Managers</Filter>
+    </ClInclude>
+    <ClInclude Include="source\ImageManager.h">
+      <Filter>Source\Managers</Filter>
+    </ClInclude>
+    <ClInclude Include="source\InputDeviceManager.h">
+      <Filter>Source\Managers</Filter>
+    </ClInclude>
+    <ClInclude Include="source\MenuManager.h">
+      <Filter>Source\Managers</Filter>
+    </ClInclude>
+    <ClInclude Include="source\SoundManager.h">
+      <Filter>Source\Managers</Filter>
+    </ClInclude>
+    <ClInclude Include="source\UpdateManager.h">
+      <Filter>Source\Managers</Filter>
+    </ClInclude>
+    <ClInclude Include="source\URIManager.h">
+      <Filter>Source\Managers</Filter>
+    </ClInclude>
+    <ClInclude Include="source\Draw_Util.h">
+      <Filter>Source\Utilities</Filter>
+    </ClInclude>
+    <ClInclude Include="source\singleton.h">
+      <Filter>Source\Utilities</Filter>
+    </ClInclude>
+    <ClInclude Include="source\Thread.h">
+      <Filter>Source\Utilities</Filter>
+    </ClInclude>
+    <ClInclude Include="source\Util.h">
+      <Filter>Source\Utilities</Filter>
+    </ClInclude>
+    <ClInclude Include="source\Util_google_analytics.h">
+      <Filter>Source\Utilities</Filter>
+    </ClInclude>
+    <ClInclude Include="source\WiiFile.h">
+      <Filter>Source\Utilities\File Utilities</Filter>
+    </ClInclude>
+    <ClInclude Include="source\CharInfo.h">
+      <Filter>Source\Utilities\Font Utilities</Filter>
+    </ClInclude>
+    <ClInclude Include="source\Font.h">
+      <Filter>Source\Utilities\Font Utilities</Filter>
+    </ClInclude>
+    <ClInclude Include="source\JPEGDEC.H">
+      <Filter>Source\Utilities\Image Utilities</Filter>
+    </ClInclude>
+    <ClInclude Include="source\TGA.h">
+      <Filter>Source\Utilities\Image Utilities</Filter>
+    </ClInclude>
+    <ClInclude Include="source\EFB.h">
+      <Filter>Source\Utilities\Hardware</Filter>
+    </ClInclude>
+    <ClInclude Include="source\LWOSource\lwo2.h">
+      <Filter>Source\Utilities\Lwo</Filter>
+    </ClInclude>
+    <ClInclude Include="source\HashLabel.h">
+      <Filter>Source\Utilities\HashLabel</Filter>
+    </ClInclude>
+    <ClInclude Include="source\HashString.h">
+      <Filter>Source\Utilities\HashStrings</Filter>
+    </ClInclude>
+    <ClInclude Include="source\MersenneTwister.h">
+      <Filter>Source\Utilities\Random</Filter>
+    </ClInclude>
+    <ClInclude Include="source\Util3D.h">
+      <Filter>Source\Utilities\3D Utilites</Filter>
+    </ClInclude>
+    <ClInclude Include="source\CullFrustum\AABox.h">
+      <Filter>Source\CullFrustum</Filter>
+    </ClInclude>
+    <ClInclude Include="source\CullFrustum\FrustumR.h">
+      <Filter>Source\CullFrustum</Filter>
+    </ClInclude>
+    <ClInclude Include="source\CullFrustum\Plane.h">
+      <Filter>Source\CullFrustum</Filter>
+    </ClInclude>
+    <ClInclude Include="source\CullFrustum\Vec3.h">
+      <Filter>Source\CullFrustum</Filter>
+    </ClInclude>
+    <ClInclude Include="source\TinyXML\tinystr.h">
+      <Filter>Source\TinyXML</Filter>
+    </ClInclude>
+    <ClInclude Include="source\TinyXML\tinyxml.h">
+      <Filter>Source\TinyXML</Filter>
+    </ClInclude>
+    <ClInclude Include="source\libpng\pngu\pngu.h">
+      <Filter>Source\libpng\pngu</Filter>
+    </ClInclude>
+    <ClInclude Include="source\oggplayer\oggplayer.h">
+      <Filter>Source\OggPlayer</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Makefile">
+      <Filter>Build rules</Filter>
+    </None>
+    <None Include="..\Data\BoltThrower_DevelopmentVersion\GameConfiguration.xml">
+      <Filter>Data</Filter>
+    </None>
+    <None Include="..\LatestVersion.xml">
+      <Filter>Data</Filter>
+    </None>
+  </ItemGroup>
+</Project>

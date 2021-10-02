@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-stylesheet type='text/xsl' href='_UpgradeReport_Files/UpgradeReport.xslt'?><UpgradeLog>
+<Properties><Property Name="Solution" Value="BoltThrowerProject">
+</Property><Property Name="Solution File" Value="E:\Projects\BoltThrowerProject.wii\wii-bolt-thrower\BoltThrowerProject.sln">
+</Property><Property Name="User Options File" Value="E:\Projects\BoltThrowerProject.wii\wii-bolt-thrower\BoltThrowerProject.suo">
+</Property><Property Name="Date" Value="29 January 2015">
+</Property><Property Name="Time" Value="19:52">
+</Property></Properties><Event ErrorLevel="0" Project="" Source="BoltThrowerProject.sln" Description="File successfully backed up as E:\Projects\BoltThrowerProject.wii\wii-bolt-thrower\BoltThrowerProject.sln.old">
+</Event><Event ErrorLevel="0" Project="" Source="BoltThrowerProject.suo" Description="File successfully backed up as E:\Projects\BoltThrowerProject.wii\wii-bolt-thrower\BoltThrowerProject.suo.old">
+</Event><Event ErrorLevel="0" Project="BoltThrower" Source="BoltThrower\BoltThrower.vcproj" Description="Converting project file 'E:\Projects\BoltThrowerProject.wii\wii-bolt-thrower\BoltThrower\BoltThrower.vcproj'.">
+</Event><Event ErrorLevel="1" Project="BoltThrower" Source="BoltThrower\BoltThrower.vcproj" Description="VCConvertEngine could not convert attribute CompileAsManaged =  under Tool VCNMakeTool.">
+</Event><Event ErrorLevel="1" Project="BoltThrower" Source="BoltThrower\BoltThrower.vcproj" Description="VCConvertEngine could not convert attribute CompileAsManaged =  under Tool VCNMakeTool.">
+</Event><Event ErrorLevel="0" Project="BoltThrower" Source="BoltThrower\BoltThrower.vcproj" Description="Done converting to new project file 'E:\Projects\BoltThrowerProject.wii\wii-bolt-thrower\BoltThrower\BoltThrower.vcxproj'.">
+</Event><Event ErrorLevel="3" Project="BoltThrower" Source="BoltThrower\BoltThrower.vcproj" Description="Converted">
+</Event><Event ErrorLevel="0" Project="" Source="BoltThrowerProject.sln" Description="Solution converted successfully">
+</Event><Event ErrorLevel="3" Project="" Source="BoltThrowerProject.sln" Description="Converted">
+</Event></UpgradeLog>

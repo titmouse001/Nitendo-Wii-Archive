@@ -1,0 +1,186 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|Win32">
+      <Configuration>Debug</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|Win32">
+      <Configuration>Release</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <ProjectGuid>{F98950B8-68AB-494C-B726-F888C5CEC0F7}</ProjectGuid>
+    <RootNamespace>HighOctane</RootNamespace>
+    <SccProjectName>
+    </SccProjectName>
+    <SccLocalPath>
+    </SccLocalPath>
+    <SccProvider>
+    </SccProvider>
+    <Keyword>MakeFileProj</Keyword>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'" Label="Configuration">
+    <ConfigurationType>Makefile</ConfigurationType>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">
+    <ConfigurationType>Makefile</ConfigurationType>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'" Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+  <PropertyGroup>
+    <_ProjectFileVersion>10.0.30319.1</_ProjectFileVersion>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">$(Configuration)\</OutDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">$(Configuration)\</IntDir>
+    <NMakeBuildCommandLine Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">make -r 2&gt;&amp;1 | sed -e %27s/\(.[a-zA-Z]\+\):\([0-9]\+\):/\1(\2):/</NMakeBuildCommandLine>
+    <NMakeReBuildCommandLine Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">make clean &amp;&amp; make -r 2&gt;&amp;1 | sed -e %27s/\(.[a-zA-Z]\+\):\([0-9]\+\):/\1(\2):/</NMakeReBuildCommandLine>
+    <NMakeCleanCommandLine Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">make clean</NMakeCleanCommandLine>
+    <NMakeOutput Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" />
+    <NMakePreprocessorDefinitions Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">_DEBUG;$(NMakePreprocessorDefinitions)</NMakePreprocessorDefinitions>
+    <NMakeIncludeSearchPath Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">$(NMakeIncludeSearchPath)</NMakeIncludeSearchPath>
+    <NMakeForcedIncludes Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">$(NMakeForcedIncludes)</NMakeForcedIncludes>
+    <NMakeAssemblySearchPath Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">$(NMakeAssemblySearchPath)</NMakeAssemblySearchPath>
+    <NMakeForcedUsingAssemblies Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">$(NMakeForcedUsingAssemblies)</NMakeForcedUsingAssemblies>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">$(Configuration)\</OutDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">$(Configuration)\</IntDir>
+    <NMakeBuildCommandLine Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">make -r 2&gt;&amp;1 | sed -e %27s/\(.[a-zA-Z]\+\):\([0-9]\+\):/\1(\2):/</NMakeBuildCommandLine>
+    <NMakeReBuildCommandLine Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">make clean &amp;&amp; make -r 2&gt;&amp;1 | sed -e %27s/\(.[a-zA-Z]\+\):\([0-9]\+\):/\1(\2):/</NMakeReBuildCommandLine>
+    <NMakeCleanCommandLine Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">make clean</NMakeCleanCommandLine>
+    <NMakeOutput Condition="'$(Configuration)|$(Platform)'=='Release|Win32'" />
+    <NMakePreprocessorDefinitions Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">NDEBUG;$(NMakePreprocessorDefinitions)</NMakePreprocessorDefinitions>
+    <NMakeIncludeSearchPath Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">$(NMakeIncludeSearchPath)</NMakeIncludeSearchPath>
+    <NMakeForcedIncludes Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">$(NMakeForcedIncludes)</NMakeForcedIncludes>
+    <NMakeAssemblySearchPath Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">$(NMakeAssemblySearchPath)</NMakeAssemblySearchPath>
+    <NMakeForcedUsingAssemblies Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">$(NMakeForcedUsingAssemblies)</NMakeForcedUsingAssemblies>
+  </PropertyGroup>
+  <ItemDefinitionGroup>
+  </ItemDefinitionGroup>
+  <ItemGroup>
+    <ClCompile Include="source\Camera.cpp" />
+    <ClCompile Include="source\GameDisplay.cpp" />
+    <ClCompile Include="source\GameLogic.cpp" />
+    <ClCompile Include="source\Image.cpp" />
+    <ClCompile Include="source\IntroDisplay.cpp" />
+    <ClCompile Include="source\Main.cpp" />
+    <ClCompile Include="source\Menu.cpp" />
+    <ClCompile Include="source\MenuScreens.cpp" />
+    <ClCompile Include="source\MessageBox.cpp" />
+    <ClCompile Include="source\Mission.cpp" />
+    <ClCompile Include="source\Panels3D.cpp" />
+    <ClCompile Include="source\Render3D.cpp" />
+    <ClCompile Include="source\Timer.cpp" />
+    <ClCompile Include="source\Vessel.cpp" />
+    <ClCompile Include="source\WiiManager.cpp" />
+    <ClCompile Include="source\Debug.cpp" />
+    <ClCompile Include="source\ExplosionManager.cpp" />
+    <ClCompile Include="source\FontManager.cpp" />
+    <ClCompile Include="source\ImageManager.cpp" />
+    <ClCompile Include="source\InputDeviceManager.cpp" />
+    <ClCompile Include="source\MenuManager.cpp" />
+    <ClCompile Include="source\SoundManager.cpp" />
+    <ClCompile Include="source\UpdateManager.cpp" />
+    <ClCompile Include="source\URIManager.cpp" />
+    <ClCompile Include="source\Draw_Util.cpp" />
+    <ClCompile Include="source\Thread.cpp" />
+    <ClCompile Include="source\Uti_google_analyticsl.cpp" />
+    <ClCompile Include="source\Util.cpp" />
+    <ClCompile Include="source\wiiFile.cpp" />
+    <ClCompile Include="source\CharInfo.cpp" />
+    <ClCompile Include="source\Font.cpp" />
+    <ClCompile Include="source\JPEGDEC.cpp" />
+    <ClCompile Include="source\TGA.cpp" />
+    <ClCompile Include="source\EFB.cpp" />
+    <ClCompile Include="source\LWOSource\clip.cpp" />
+    <ClCompile Include="source\LWOSource\envelope.cpp" />
+    <ClCompile Include="source\LWOSource\list.cpp" />
+    <ClCompile Include="source\LWOSource\lwio.cpp" />
+    <ClCompile Include="source\LWOSource\lwo2.cpp" />
+    <ClCompile Include="source\LWOSource\lwob.cpp" />
+    <ClCompile Include="source\LWOSource\main2.cpp" />
+    <ClCompile Include="source\LWOSource\pntspols.cpp" />
+    <ClCompile Include="source\LWOSource\surface.cpp" />
+    <ClCompile Include="source\LWOSource\vecmath.cpp" />
+    <ClCompile Include="source\LWOSource\vmap.cpp" />
+    <ClCompile Include="source\HashLabel.cpp" />
+    <ClCompile Include="source\HashString.cpp" />
+    <ClCompile Include="source\Util3D.cpp" />
+    <ClCompile Include="source\CullFrustum\AABox.cpp" />
+    <ClCompile Include="source\CullFrustum\FrustumR.cpp" />
+    <ClCompile Include="source\CullFrustum\Plane.cpp" />
+    <ClCompile Include="source\CullFrustum\Vec3.cpp" />
+    <ClCompile Include="source\TinyXML\tinystr.cpp" />
+    <ClCompile Include="source\TinyXML\tinyxml.cpp" />
+    <ClCompile Include="source\TinyXML\tinyxmlerror.cpp" />
+    <ClCompile Include="source\TinyXML\tinyxmlparser.cpp" />
+    <ClCompile Include="source\libpng\pngu\pngu.c" />
+    <ClCompile Include="source\oggplayer\oggplayer.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="source\Camera.h" />
+    <ClInclude Include="source\Config.h" />
+    <ClInclude Include="source\GameDisplay.h" />
+    <ClInclude Include="source\GameLogic.h" />
+    <ClInclude Include="source\Image.h" />
+    <ClInclude Include="source\IntroDisplay.h" />
+    <ClInclude Include="source\Menu.h" />
+    <ClInclude Include="source\MenuScreens.h" />
+    <ClInclude Include="source\MessageBox.h" />
+    <ClInclude Include="source\Mission.h" />
+    <ClInclude Include="source\Panels3D.h" />
+    <ClInclude Include="source\Render3D.h" />
+    <ClInclude Include="source\Timer.h" />
+    <ClInclude Include="source\Vessel.h" />
+    <ClInclude Include="source\WiiManager.h" />
+    <ClInclude Include="source\Debug.h" />
+    <ClInclude Include="source\ExplosionManager.h" />
+    <ClInclude Include="source\FontManager.h" />
+    <ClInclude Include="source\ImageManager.h" />
+    <ClInclude Include="source\InputDeviceManager.h" />
+    <ClInclude Include="source\MenuManager.h" />
+    <ClInclude Include="source\SoundManager.h" />
+    <ClInclude Include="source\UpdateManager.h" />
+    <ClInclude Include="source\URIManager.h" />
+    <ClInclude Include="source\Draw_Util.h" />
+    <ClInclude Include="source\singleton.h" />
+    <ClInclude Include="source\Thread.h" />
+    <ClInclude Include="source\Util.h" />
+    <ClInclude Include="source\Util_google_analytics.h" />
+    <ClInclude Include="source\WiiFile.h" />
+    <ClInclude Include="source\CharInfo.h" />
+    <ClInclude Include="source\Font.h" />
+    <ClInclude Include="source\JPEGDEC.H" />
+    <ClInclude Include="source\TGA.h" />
+    <ClInclude Include="source\EFB.h" />
+    <ClInclude Include="source\LWOSource\lwo2.h" />
+    <ClInclude Include="source\HashLabel.h" />
+    <ClInclude Include="source\HashString.h" />
+    <ClInclude Include="source\MersenneTwister.h" />
+    <ClInclude Include="source\Util3D.h" />
+    <ClInclude Include="source\CullFrustum\AABox.h" />
+    <ClInclude Include="source\CullFrustum\FrustumR.h" />
+    <ClInclude Include="source\CullFrustum\Plane.h" />
+    <ClInclude Include="source\CullFrustum\Vec3.h" />
+    <ClInclude Include="source\TinyXML\tinystr.h" />
+    <ClInclude Include="source\TinyXML\tinyxml.h" />
+    <ClInclude Include="source\libpng\pngu\pngu.h" />
+    <ClInclude Include="source\oggplayer\oggplayer.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Makefile" />
+    <None Include="..\Data\BoltThrower_DevelopmentVersion\GameConfiguration.xml" />
+    <None Include="..\LatestVersion.xml" />
+  </ItemGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+</Project>
