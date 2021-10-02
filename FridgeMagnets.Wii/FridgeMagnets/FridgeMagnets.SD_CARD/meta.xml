@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<app version="0.34">
+  <name>Fridge Magnets</name>
+  <coder>Paul Overy</coder>
+  <version>v0.34</version>
+  <release_date>201010230000</release_date>
+  <short_description>Wii Fridge Magnets Game</short_description> 
+  <long_description>Move magnetic letters about, bit of fun & learning for children   
+Up to 4 Controllers: 
+Shake Wiimote to shake letters
+Scroll view with direction buttons
+(A or B) Hold down to pick up
+(A & B)  Drop new Letter
+(1)      Remove highlighted letter
+(2)      Pile up letters
+(-)/(+)  Change camera view zoom
+(Home)   Back to Homebrew Channel</long_description> 
+</app>

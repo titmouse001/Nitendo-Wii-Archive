@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<app version="0.01">
+  <name>Game Framework</name>
+  <coder>Paul Overy, alias Titmouse</coder>
+  <version>v0.01</version>
+  <release_date>201103270000</release_date>
+  <short_description>Framework for game programmers</short_description>
+  <long_description>This is a basic framework to guide programmers in using things like XML, Fonts, Images in C++ 
+with help from the Standard Template Library.  STL is a C++ library of container classes, algorithms, and iterators.
+(STL is good wholesome stuff, USE IT - please don't reinvent the wheel)</long_description>
+</app>

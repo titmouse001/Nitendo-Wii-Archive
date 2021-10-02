@@ -1,0 +1,24 @@
+@echo off
+
+set fonttool=fonttool.exe
+set fontdir=fonts
+
+REM ensure the folder exists
+mkdir %fontdir%
+
+REM and delete any old files
+del %fontdir%\*.tga
+del %fontdir%\*.ftab
+del %fontdir%\*.fraw
+
+
+set extracharsets=greek-coptic,cyrllic
+set unicodecharsets=cjk-unified,hangul-syllables,hiragana,katakana
+
+
+%fonttool% -f "Arial" -h 14 -o %fontdir%\Arial -c latin -d 8 -a
+%fonttool% -f "BlackAdder ITC" -h 40 -o %fontdir%\BlackAdder -c latin -d 8
+
+
+
+pause

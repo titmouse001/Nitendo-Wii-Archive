@@ -1,0 +1,31 @@
+<?xml version="1.0" standalone="yes"?>
+<Data>
+	<!-- A working configuration file for the Game Framework -->
+	
+	<!-- Edit this data with something like notepad++, that way your XML looks nice and errors show up -->
+      
+   	<Fonts>
+		<AddFont Name="LargeFont" FileName="fonts/large/Arial-latin"/>	
+		<AddFont Name="SmallFont" FileName="fonts/small/Arial-latin"/>
+	</Fonts>
+		
+	<Variables>
+		<!-- Variables cam take integer or floating point values -->
+		<WiiMoteIdleTimeoutInSeconds>300</WiiMoteIdleTimeoutInSeconds>
+		<AnotherExampleVariable>42</AnotherExampleVariable>
+	</Variables>
+   
+   
+
+   
+<!-- not used just some other examples of what you can do...
+    <Sounds>
+		<AddSound Name="Explode11"	FileName="Sounds/Explode.wav" />
+	</Sounds>
+
+   	<Graphics FileName="new.png">
+		<AddImage Name="ShipFrames"  StartX="0" StartY="0" ItemWidth="32" ItemHeight="32" NumberItems="4"/>
+	</Graphics>
+-->
+
+</Data>

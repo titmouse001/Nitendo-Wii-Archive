@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<app version="0.01">
+  <name>High Octane</name>
+  <coder>Paul Overy</coder>
+  <version>v0.01</version>
+  <release_date>201012070000</release_date>
+  <short_description>Demo showing proof of concept</short_description>
+  <long_description>High Octane Demo - nothing more than proof of concept
+VISIT: http://wiibrew.org/wiki/HighOctane
+NEEDED: Any art work or ideas are very welcome
+CONTROLS:(2) Drive Forward  (1) Brake and Backwards
+Hold WiiMote horizontal - left/right buttons to turn
+(Home) Back to Homebrew Channel</long_description>
+</app>
